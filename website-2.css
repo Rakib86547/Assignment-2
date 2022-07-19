@@ -109,17 +109,17 @@ a.main-btn:last-child{
 }
 
 .wrapper-gallary {
-    border: 1px solid #ddd;
+   
     border-radius: 5px;
     padding: 10px;
 }
 
 .wrapper-content {
     padding: 20px 0px;
+    text-align: center;
 }
 
 .wrapper-content h4 {
-    border: 1px solid #000;
     display: inline-block;
     padding: 5px;
     font-size: 15px;
@@ -135,7 +135,11 @@ a.main-btn:last-child{
 .image img {
     width: 100%;
 }
-
+.image {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
 .wrapper-logo {
     display: flex;
 }
